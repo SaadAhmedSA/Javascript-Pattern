@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+
+    <script>
+        //Q1
+        let declaring = []
+        declaring = ['Saad','Ali','Haris','SheHzad']
+        //Q2
+        let arr1 =['0','1','2','3']
+        let arr2 =['1','0','1','2']
+        let arr3 =['2','1','0','1']
+        //Q3
+        document.write("Counting <br>")
+        for(let i = 1; i<=10 ; i++){
+           
+            document.write(i,"<br>")
+        }
+        //Q4
+        let table = prompt("Enter a table number.")
+        let lengthtable = prompt("Enter a table length.")
+
+        document.write("<br>","Multiplication of table ",table)
+        document.write("<br>","length of table ", lengthtable)
+
+        for(let i=1 ; i<=lengthtable;i++){
+            document.write("<br>",table, " X " ,i," = ",table*i)
+        }
+        //Q5
+        let fruits = ["Apple","Bananna","Mango","Orange","Stawberry"]
+        for(let i = 0 ; i<fruits.length ; i++){
+            document.write("<br>",fruits[i])
+            
+        }
+        //Q6
+        let fruits1 = ["Apple","Bananna","Mango","Orange","Stawberry"]
+        for(let i = 0 ; i<fruits1.length ; i++){
+    
+            document.write("<br>","Element At index ",[i]," is " ,fruits[i])
+        }
+        //Q7
+        document.write("<br> Counting  ")
+
+        for(let i = 1 ;i <=10 ;i++){
+            document.write([i],",")
+        }
+        //Q8
+        document.write("<br> Reverse Counting  ")
+
+        for(let i = 10 ;i >=1 ;i--){
+            document.write([i],",")
+        }
+        //Q9
+        document.write("<br> Odd  ")
+
+        for(let i = 1 ;i <=20 ;i=i+2){
+            document.write([i],",")
+        }
+        //Q10
+        document.write("<br> Even  ")
+
+        for(let i = 2 ;i <=20 ;i=i+2){
+            document.write([i],",")
+        }
+        //Q11
+        document.write("<br> Series  ")
+
+        for(let i = 2 ;i <=20 ;i=i+2){
+            document.write([i],"k,")
+        }
+        //Q12
+        let bakery = ["cake","milk","egg","rusk","sweet"]
+        let find = prompt("Find The bakery item")
+        let flag = "false"
+       
+        for(let i=0 ; i<bakery.length ; i++){
+            if(find===bakery[i]){
+                flag="true"
+            
+        }
+        }
+        if(flag==="true"){
+                
+                
+                document.write("<br>", find," is availabe in our bakery")
+            
+        }else{
+                        document.write("<br>"," Sorry ! not availabe in our bakery")
+
+        }
+        //Q13
+  let number = [1,3,5,7,9,11,13,15,17,19,21,24,17,30]
+  let larger = number[0]
+  for(let i = 0 ; i<number.length ; i++){
+    if(larger<number[i]){
+        larger=number[i]
+    }
+  }
+  
+  document.write("<br> Array Number",number)
+  document.write(" <br> The largest number of array is ",larger)
+  //q14
+  let nmber = [1,3,5,7,9,11,13,15,17,19,21,24,17,30]
+  let largr = nmber[0]
+  for(let i = 0 ; i<nmber.length ; i++){
+    if(largr>nmber[i]){
+        largr=nmber[i]
+    }
+  }
+  document.write(" <br> The Smallest number of array is ",largr,"<br>",)
+//Q15
+  for(let i = 5 ; i<=100 ; i=i+5){
+    document.write(i,",")
+  }
+    </script>
+    
+</body>
+</html>
